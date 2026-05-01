@@ -1,6 +1,6 @@
 NAME        = form
 CC          = c++
-CFLAGS      = -Wall -Wextra -Werror -std=c++98
+CFLAGS      = -Wall -Wextra -Werror -std=c++17
 OBJDIR      = obj
 SRCS        = main.cpp Bureaucrat.cpp Form.cpp
 OBJS        = $(addprefix $(OBJDIR)/, $(notdir $(SRCS:.cpp=.o)))

@@ -1,6 +1,6 @@
 NAME	= listenToHarlsComplains
 CC		= c++
-CFLAGS	= -Wall -Wextra -Werror -std=c++98
+CFLAGS	= -Wall -Wextra -Werror -std=c++17
 SRCS	= main.cpp Harl.cpp
 OBJDIR  = obj
 OBJS    = $(SRCS:%.cpp=$(OBJDIR)/%.o)

@@ -1,6 +1,6 @@
 NAME	= Animals
 CC		= c++
-CFLAGS	= -Wall -Wextra -Werror -std=c++98
+CFLAGS	= -Wall -Wextra -Werror -std=c++17
 SRCS	= main.cpp Animal.cpp Cat.cpp Dog.cpp WrongAnimal.cpp WrongCat.cpp
 OBJDIR  = obj
 OBJS    = $(SRCS:%.cpp=$(OBJDIR)/%.o)

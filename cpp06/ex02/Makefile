@@ -1,6 +1,6 @@
 NAME	= based
 CC		= c++
-CFLAGS	= -Wall -Wextra -Werror -std=c++98
+CFLAGS	= -Wall -Wextra -Werror -std=c++17
 SRCS	= main.cpp Base.cpp A.cpp B.cpp C.cpp
 OBJDIR  = obj
 OBJS    = $(SRCS:%.cpp=$(OBJDIR)/%.o)
